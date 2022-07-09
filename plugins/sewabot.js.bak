@@ -12,8 +12,6 @@ let handler = async (m, { conn }) => {
   title: `${await conn.getName(conn.user.jid)}`,
   description: ` *• 𝘀𝗲𝘄𝗮 𝗯𝗼𝘁 𝗶𝗻𝗶 & 𝘂𝗻𝗱𝗮𝗻𝗴 𝗸𝗲 𝗴𝗿𝘂𝗽 & 𝘂𝗽𝗴𝗿𝗮𝗱𝗲 𝗷𝗮𝗱𝗶 𝗺𝗲𝗺𝗯𝗲𝗿 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 •*
 
-cek katalog kami disini 『 https://sociabuzz.com/arietube/shop 』
-
 jika sudah bayar langsung konfirmasi ke owner dibawah (sertakan screenshot)
 ☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}✵
 
@@ -27,9 +25,9 @@ jika sudah bayar langsung konfirmasi ke owner dibawah (sertakan screenshot)
   products:[{productId:'7487741964584083'}]}],
   headerImage: { productId: '7487741964584083',
   jpegThumbnail: baper },
-  businessOwnerJid: `6285828357727@s.whatsapp.net`
+  businessOwnerJid: `6282211991425@s.whatsapp.net`
   },
-  footerText: 'https://m.youtube.com/channel/UC0rPHvwr0sJtaccF8Mm1Xng',
+  footerText: 'tiktok.com/@brynzx06',
   }},{})
   conn.relayMessage(prepare.key.remoteJid,prepare.message,{messageId:prepare.key.id})
   const data = global.owner.filter(([id, isCreator]) => id && isCreator)
