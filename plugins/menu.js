@@ -158,10 +158,10 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     let url = `https://i.postimg.cc/nrMn3sMN/menu.jpg`
-    conn.sendHydrated(m.chat, text.trim(), 'ℙ𝔼𝕄𝔹𝕌𝔸𝕋 𝕊ℂ ➢ 𝔾𝔼𝕄ℙ𝕐', null, 'https://www.youtube.com/channel/UCZoVmApPxtLYgUWwBD4nbCw', 'ʏᴏᴜᴛᴜʙᴇ ɢᴇᴍᴘʏ', '', '', [
-      ['𝗚𝗥𝗨𝗣 𝗕𝗢𝗧', '/donasi'],
-      ['𝗝𝗔𝗦𝗔 𝗥𝗨𝗡', '/sewa'],
-      ['✿𝗢𝗪𝗡𝗘𝗥✿', '/owner']
+    conn.sendHydrated(m.chat, text.trim(), 'Brynzx 3.4', null, 'https://www.youtube.com/channel/UCZoVmApPxtLYgUWwBD4nbCw', 'ʏᴏᴜᴛᴜʙᴇ ɢᴇᴍᴘʏ', '', '', [
+      ['Donate', '/donasi'],
+      ['Sewa', '/sewa'],
+      ['Owner', '/owner']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
     let res = await fetch(url)
